@@ -4,7 +4,7 @@ CheetBook is currently a work in progress.
 
 ## What we are trying to build
 
-We are trying to build a compilation of cheetsheets that developers can have as a handy guide while working with their favorite techs. 
+We are trying to build a compilation of cheetsheets that developers can have as a handy guide while working with their favorite techs.
 
 ## What we are trying to solve
 
@@ -17,3 +17,7 @@ Intended color scheme is
 ![CS_1](./client/src/images/color_scheme_1.png)
 
 ![CS_2](./client/src/images/color_scheme_2.png)
+
+## Milestones
+
+Checkout the milestone.md file to see the current MVP
