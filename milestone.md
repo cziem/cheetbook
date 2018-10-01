@@ -17,6 +17,18 @@ We would be using scss primarily.
 
 In the later future, we may opt for `semantic-ui`, `antd` or `reactstrap`
 
-The link to the figma mock up is [here](https://www.figma.com/proto/L9msRpzzP1sWdGKTcWZb9vC5/CheetBook_Landing_page?node-id=15%3A15&scaling=min-zoom)
+### The Landing Page
 
-![CheetBook](./client/src/images/cheetbook_mock.png)
+![Landing Page](./client/src/images/Landing.png)
+
+### The Hoverstate
+
+![Login Hoverstate](./client/src/images/Dropdown.png)
+
+### The Registration / Login Page
+
+![Reg Page](./client/src/images/Reg.png)
+
+### The Cheetsheet Page
+
+![Cheetsheet Page](./client/src/images/cheetsheet.png)
