@@ -20,4 +20,4 @@ Intended color scheme is
 
 ## Milestones
 
-Checkout the milestone.md file to see the current MVP
+Checkout the `milestone.md` file to see the current MVP
