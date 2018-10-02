@@ -1,6 +1,8 @@
 # CheetBook
 
-CheetBook is currently a work in progress.
+Hey there... Welcome to `cheetBook` am glad you came all the way.
+
+CheetBook is currently a work in progress. And we hope to build something we can all be proud of from this simple project.
 
 ## What we are trying to build
 
@@ -14,9 +16,9 @@ This project tries to solve the challenge beginner developers like me have, like
 
 Intended color scheme is
 
-![CS_1](./client/src/images/color_scheme_1.png)
-
 ![CS_2](./client/src/images/color_scheme_2.png)
+
+Though our figma design has a bit of difference in the color scheme. We are likely to stick with the figma scheme.
 
 ## Milestones
 
