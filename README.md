@@ -23,3 +23,7 @@ Though our figma design has a bit of difference in the color scheme. We are like
 ## Milestones
 
 Checkout the `milestone.md` file to see the current MVP
+
+## Contributing
+
+Thank you for your interest in contributing to the project. You should check out our [Contributing Docs](./.github/CONTRIBUTING.md) and also our [CODE_OF_CONDUCT](./CODE_OF_CONDUCT.md)
