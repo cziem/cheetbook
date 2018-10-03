@@ -25,6 +25,8 @@
   "author": "Fayvor George",
   "license": "MIT",
   "dependencies": {
+    "@material-ui/core": "^3.1.2",
+    "@material-ui/icons": "^3.0.1",
     "axios": "^0.18.0",
     "babel-cli": "^6.26.0",
     "babel-core": "6.25.0",
@@ -63,6 +65,7 @@
     "redux-devtools": "^3.4.1",
     "redux-logger": "^3.0.6",
     "sass-loader": "^7.1.0",
+    "typeface-roboto": "0.0.54",
     "validator": "8.0.0",
     "webpack": "3.1.0",
     "webpack-dev-server": "2.5.1"
