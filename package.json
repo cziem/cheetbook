@@ -25,6 +25,7 @@
   "author": "Fayvor George",
   "license": "MIT",
   "dependencies": {
+    "@material-ui/core": "^3.2.0",
     "axios": "^0.18.0",
     "babel-cli": "^6.26.0",
     "babel-core": "6.25.0",
