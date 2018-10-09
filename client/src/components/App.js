@@ -1,3 +1,4 @@
 import React from 'react'
+import Login from './Login' 
 
-export default () => <h2>Hello, CheetBook</h2>
+export default () => <Login />
