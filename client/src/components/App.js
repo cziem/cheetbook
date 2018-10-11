@@ -1,3 +1,12 @@
 import React from 'react'
+import CardContainer from './card';
 
-export default () => <h2>Hello, CheetBook</h2>
+class App extends React.Component {
+    render() {
+        return (
+            <CardContainer />
+        )
+    }
+}
+
+export default App;
