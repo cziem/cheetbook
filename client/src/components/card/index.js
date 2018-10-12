@@ -1,23 +1,20 @@
-import React, { Component } from 'react'
-import { Card, CardHeader, CardMedia, CardActionArea, CardActions, CardContent, Button } from '@material-ui/core';
+import React from 'react'
+import { Card, CardMedia, CardActionArea, CardActions, CardContent, Button, Typography } from '@material-ui/core';
 
-const CardContainer = () => (
+const CardContainer = (props) => (
     <Card style={styles.cardStyle}>
         <CardActionArea>
             <CardMedia 
-                image="/client/src/images/react.png"
-                title="React Logo"
+                image={props.image}
             />
-            <CardContent>
-                <h3>
-                    This is the header
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-            </CardContent>
         </CardActionArea>
-        <CardActions>
+        <CardActions style={styles.contentStyle}>
+            <CardContent>
+                    <Typography variant="headline" componen="h3" color="inherit">{props.header}</Typography>
+                    <Typography component="p" color="inherit">{props.text}</Typography>
+            </CardContent>
             <CardActions>
-                <Button>View Sheet</Button>
+                <Button variant="outlined" style={styles.buttonStyle}>View Sheet</Button>
             </CardActions>
         </CardActions>
     </Card>
@@ -25,9 +22,20 @@ const CardContainer = () => (
 
 const styles = {
     cardStyle: {
-        maxWidth: "20rem",
+        width: "285px",
         textAlign: "center",
-        padding: "10px"
+        color: 'white',
+        backgroundColor: "rgba(72, 86, 101, 1)"
+    },
+    contentStyle: {
+        display: "flex",
+        justifyContent: 'center',
+        flexDirection: "column",
+        padding: '15px'
+    },
+    buttonStyle: {
+        color: "rgb(0, 184, 230)",
+        borderColor: 'rgb(0, 184, 230)',
     }
 }
 
