@@ -1,10 +1,14 @@
 import React from 'react'
 import CardContainer from './card';
+import Footer from './footer';
 
 class App extends React.Component {
     render() {
         return (
-            <CardContainer />
+            <div>
+                <CardContainer />
+                <Footer />
+            </div>
         )
     }
 }
