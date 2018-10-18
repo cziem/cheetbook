@@ -1,4 +1,16 @@
 import React from 'react'
-import Login from './Login' 
+import CardContainer from './card';
+import Footer from './footer';
 
-export default () => <Login />
+class App extends React.Component {
+    render() {
+        return (
+            <div>
+                <CardContainer />
+                <Footer />
+            </div>
+        )
+    }
+}
+
+export default App;
