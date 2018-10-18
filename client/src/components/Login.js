@@ -12,28 +12,28 @@ class Login extends Component {
     render() {
         return(
             <Grid container justify="center">
-                <Card>
+                <Card style={styles.cardStyle}>
                     <CardContent>
                         <Tabs
                             value={this.state.value}
                             indicatorColor="primary"
-                            textColor="primary"
+                            textColor="white"
                             onChange={this.handleChange}
                         >
-                            <Tab label="Login" />
-                            <Tab label="Sign Up" />
+                            <Tab label="Login" style={styles.tabStyle} />
+                            <Tab label="Sign Up" style={styles.tabStyle} />
                         </Tabs>
                         <Grid container style={{ paddingTop:'50' }}>
                             <Grid item>
                                 <CardActions>
-                                    <Button variant="outlined" size="medium" color="primary">
+                                    <Button variant="outlined" size="medium" style={styles.buttonStyle}>
                                         Google
                                     </Button>
                                 </CardActions>  
                             </Grid>
                             <Grid item>
                                 <CardActions>
-                                    <Button variant="outlined" size="medium" color="primary">
+                                    <Button variant="outlined" size="medium" style={styles.buttonStyle}>
                                         GitHub
                                     </Button>
                                 </CardActions>  
@@ -47,6 +47,7 @@ class Login extends Component {
                                     'aria-label': 'Description',
                                     }}
                                     fullWidth
+                                    style={styles.inputStyle}
                                 />
                             </Grid>
                             <Grid item  xs={12}>
@@ -57,18 +58,39 @@ class Login extends Component {
                                     }}
                                     type="password"
                                     fullWidth
+                                    style={styles.inputStyle}
                                 />
                             </Grid>
                         </Grid>
                         <Grid container justify='center'>
                             <CardActions>
-                                <Button variant='outlined'>Login</Button>
+                                <Button variant='outlined' style={styles.buttonStyle}>Login</Button>
                             </CardActions>
                         </Grid>
                     </CardContent>
                 </Card>
             </Grid>
         )
+    }
+}
+
+const styles = {
+    cardStyle: {
+        backgroundColor: '#18324f',
+        color: 'white'
+    },
+    buttonStyle:{
+        borderColor: '#3dc0cb',
+        color: '#3dc0cb',
+        fontWeight: 'bold'
+    },
+    tabStyle: {
+        color: '#3dc0cb',
+        fontWeight: 'bold'
+    },
+    inputStyle: {
+        color: 'white',
+        borderColor: '#3dc0cb'
     }
 }
 
